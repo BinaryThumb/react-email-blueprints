@@ -1,6 +1,6 @@
 {
   "name": "react-email-blueprints",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Render e-mails with React",
   "main": "dist/react-email-blueprints.js",
   "jsnext:main": "dist/react-email-blueprints.es2015.js",
