@@ -15,7 +15,7 @@ class Button extends Component {
 
   static defaultProps = {
     link: '#',
-    borderColor: '#000000'
+    borderColor: '#000000',
   };
 
   static textButtonStyle = {
@@ -28,6 +28,8 @@ class Button extends Component {
   };
 
   render() {
+    const imageSrc = `${this.props.imageBase}/${this.props.buttonLeft}`;
+
     return (
       <Table width="100%" style={{ paddingBottom: 20 }}>
         <Table.Row>
@@ -77,7 +79,7 @@ class Button extends Component {
                   style={{ fontSize: 0, lineHeight: 0, textAlign: 'left' }} width="15">
                   <Image
                     border="0"
-                    src={`${this.props.imageBase}/${this.props.buttonLeft}`} alt="" width="15" height="49" />
+                    src={imageSrc} alt="" width="15" height="49" />
                 </Table.Cell>
               </Table.Row>
             </Table>

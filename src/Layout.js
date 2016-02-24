@@ -18,15 +18,15 @@ class LayoutMail extends Component {
     imageBase: '',
   };
 
-  render() {
-    const bodyStyle = {
-      padding: 0,
-      margin: 0,
-      display: 'block',
-      width: '100%',
-      background: '#ffffff',
-    };
+  static bodyStyle = {
+    padding: 0,
+    margin: 0,
+    display: 'block',
+    width: '100%',
+    background: '#ffffff',
+  };
 
+  render() {
     return (
       <html xmlns="http://www.w3.org/1999/xhtml">
         <head>
@@ -38,9 +38,12 @@ class LayoutMail extends Component {
           <meta name="format-detection" content="telephone=no" />
           <title>{this.props.title}</title>
 
-          <style type="text/css" media="screen" dangerouslySetInnerHTML={{ __html: this.props.styles }} />
+          <style
+            type="text/css"
+            media="screen"
+            dangerouslySetInnerHTML={{ __html: this.props.styles }} />
         </head>
-        <body className="body" style={bodyStyle}>
+        <body className="body" style={LayoutMail.bodyStyle}>
           <Table width="100%">
             <Table.Row>
               <Table.Cell verticalAlign="top" horizontalAlign="center">
@@ -49,7 +52,11 @@ class LayoutMail extends Component {
                 <Spacer imageBase={this.props.imageBase} height={1} />
 
                 <div className="wgmail" style={{ fontSize: 0, lineHeight: 0, textAlign: 'center' }}>
-                  <Spacer imageBase={this.props.imageBase} height={1} width="100%" style={{ minWidth: '100%' }} />
+                  <Spacer
+                    imageBase={this.props.imageBase}
+                    height={1}
+                    width="100%"
+                    style={{ minWidth: '100%' }} />
                 </div>
               </Table.Cell>
             </Table.Row>

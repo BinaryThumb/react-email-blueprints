@@ -14,4 +14,20 @@ import Text from './Text';
 import Textbox from './Textbox';
 import Widget from './Widget';
 
-export { Body, Button, Cell, Footer, H2, H3, Image, Layout, Logo, Row, Spacer, Table, Text, Textbox, Widget };
+export {
+  Body,
+  Button,
+  Cell,
+  Footer,
+  H2,
+  H3,
+  Image,
+  Layout,
+  Logo,
+  Row,
+  Spacer,
+  Table,
+  Text,
+  Textbox,
+  Widget,
+};

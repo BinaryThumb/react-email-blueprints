@@ -8,6 +8,7 @@ class Footer extends Component {
     imageBase: PropTypes.string,
     backgroundImage: PropTypes.string,
     backgroundColor: PropTypes.string,
+    children: PropTypes.node,
   };
 
   static defaultProps = {
