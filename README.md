@@ -1,6 +1,11 @@
 # react-email-blueprints
 :mailbox_with_mail: Collection of React components for server-side e-mail template rendering
 
+[![Build Status](https://travis-ci.org/BinaryThumb/react-email-blueprints.svg?branch=master)](https://travis-ci.org/BinaryThumb/react-email-blueprints)
+[![Dependency Status](https://david-dm.org/BinaryThumb/react-email-blueprints.svg)](https://david-dm.org/BinaryThumb/react-email-blueprints)
+[![devDependency Status](https://david-dm.org/BinaryThumb/react-email-blueprints/dev-status.svg)](https://david-dm.org/BinaryThumb/react-email-blueprints#info=devDependencies)
+[![Coverage Status](https://coveralls.io/repos/github/BinaryThumb/react-email-blueprints/badge.svg?branch=master)](https://coveralls.io/github/BinaryThumb/react-email-blueprints?branch=master)
+
 ## Installation
 ```
 npm install react-email-blueprints
