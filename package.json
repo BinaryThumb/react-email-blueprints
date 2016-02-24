@@ -1,0 +1,29 @@
+{
+  "name": "react-email-blueprints",
+  "version": "1.0.0",
+  "description": "Render e-mails with React",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BinaryThumb/react-email-blueprints.git"
+  },
+  "keywords": [
+    "email",
+    "e-mail",
+    "react",
+    "server",
+    "render"
+  ],
+  "author": "Johannes Stein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BinaryThumb/react-email-blueprints/issues"
+  },
+  "homepage": "https://github.com/BinaryThumb/react-email-blueprints#readme"
+}
