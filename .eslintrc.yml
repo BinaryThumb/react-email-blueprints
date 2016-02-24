@@ -1,0 +1,13 @@
+extends: airbnb
+parser: babel-eslint
+rules:
+  eqeqeq:
+    - 2
+    - smart
+  react/jsx-closing-bracket-location:
+    - 2
+    - after-props
+  react/jsx-indent:
+    - 2
+    - 2
+  no-loop-func: 0
