@@ -12,7 +12,8 @@
     "lint": "eslint .",
     "pretest": "npm-run-all --parallel build lint",
     "test": "mocha --compilers js:babel-register test/**/*.js",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
