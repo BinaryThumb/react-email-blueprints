@@ -10,7 +10,7 @@
   "scripts": {
     "build": "rollup-babel-lib-bundler src/index.js",
     "lint": "eslint .",
-    "pretest": "npm run lint",
+    "pretest": "npm-run-all --parallel build lint",
     "test": "mocha --compilers js:babel-register test/**/*.js",
     "precommit": "npm run lint"
   },
@@ -54,6 +54,7 @@
     "istanbul": "^0.4.2",
     "mocha": "^2.4.5",
     "npm": "^3.7.3",
+    "npm-run-all": "^1.5.1",
     "react-addons-test-utils": "^0.14.7",
     "react-dom": "^0.14.7",
     "rollup-babel-lib-bundler": "^2.1.1"
