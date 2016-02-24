@@ -57,7 +57,7 @@
     "npm-run-all": "^1.5.1",
     "react-addons-test-utils": "^0.14.7",
     "react-dom": "^0.14.7",
-    "rollup-babel-lib-bundler": "^2.1.1"
+    "rollup-babel-lib-bundler": "^2.1.2"
   },
   "dependencies": {
     "lodash.omit": "^4.1.0",
