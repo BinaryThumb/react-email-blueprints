@@ -52,10 +52,10 @@
     "eslint-plugin-react": "^4.1.0",
     "husky": "^0.11.1",
     "install": "^0.5.0",
-    "istanbul": "^0.4.2",
     "mocha": "^2.4.5",
     "npm": "^3.7.3",
     "npm-run-all": "^1.5.1",
+    "nyc": "^5.6.0",
     "react-addons-test-utils": "^0.14.7",
     "react-dom": "^0.14.7",
     "rollup-babel-lib-bundler": "^2.1.3"
