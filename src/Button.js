@@ -20,7 +20,7 @@ class Button extends Component {
 
   static textButtonStyle = {
     color: '#000000',
-    fontFamily: 'Arial, sans-serif, "Roboto"',
+    fontFamily: 'Arial',
     fontSize: 20,
     lineHeight: '24px',
     textAlign: 'center',
