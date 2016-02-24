@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "build": "rollup-babel-lib-bundler src/index.js",
     "test": "karma start"
   },
   "repository": {
@@ -25,5 +26,18 @@
   "bugs": {
     "url": "https://github.com/BinaryThumb/react-email-blueprints/issues"
   },
-  "homepage": "https://github.com/BinaryThumb/react-email-blueprints#readme"
+  "homepage": "https://github.com/BinaryThumb/react-email-blueprints#readme",
+  "devDependencies": {
+    "babel-preset-es2015-loose-rollup": "^7.0.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "install": "^0.5.0",
+    "karma": "^0.13.21",
+    "npm": "^3.7.3",
+    "rollup-babel-lib-bundler": "^2.1.1"
+  },
+  "dependencies": {
+    "lodash.omit": "^4.1.0",
+    "react": "^0.14.7"
+  }
 }
